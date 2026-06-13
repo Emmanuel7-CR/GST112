@@ -357,6 +357,18 @@ body {
   background: #fff;
 }
 
+/* Selected (pre-confirm) state */
+.option-btn.selected {
+  background: var(--amber-lt);
+  border-color: var(--amber);
+}
+
+.option-btn.selected .option-letter {
+  background: var(--amber);
+  border-color: var(--amber);
+  color: #fff;
+}
+
 /* Correct/Incorrect states */
 .option-btn.correct {
   background: var(--leaf-lt);
@@ -420,6 +432,27 @@ body {
 }
 
 .feedback-msg strong { font-weight: 600; }
+
+/* Confirm button */
+.btn-confirm {
+  width: 100%;
+  padding: 14px;
+  background: var(--amber);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-family: 'Syne', sans-serif;
+  font-size: .88rem;
+  font-weight: 700;
+  letter-spacing: .04em;
+  cursor: pointer;
+  transition: background .15s, transform .1s;
+  margin-bottom: 10px;
+}
+
+.btn-confirm:hover { background: #b8730a; }
+.btn-confirm:active { transform: scale(.99); }
+.btn-confirm:disabled { opacity: .5; cursor: default; }
 
 /* Next button */
 .btn-next {
