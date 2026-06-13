@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GST112 — History of Nigeria Quiz</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── SCREEN 1: Home / Chapter Select ── -->
+  <div id="screen-home" class="screen active">
+    <header class="home-header">
+      <div class="course-tag">GST 112</div>
+      <h1>History &amp;<br>Philosophy<br>of Science</h1>
+      <p class="subtitle">Test your knowledge chapter by chapter. Pick a section to begin.</p>
+    </header>
+
+    <main class="chapter-list" id="chapter-list">
+      <!-- Populated by JS -->
+    </main>
+
+    <footer class="home-footer">
+      <span>University Course Quiz Tool</span>
+    </footer>
+  </div>
+
+  <!-- ── SCREEN 2: Quiz ── -->
+  <div id="screen-quiz" class="screen">
+    <div class="quiz-shell">
+
+      <div class="quiz-topbar">
+        <button class="btn-back" id="btn-back" aria-label="Back to chapters">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+          Chapters
+        </button>
+        <div class="chapter-label" id="quiz-chapter-label"></div>
+      </div>
+
+      <div class="progress-row">
+        <span class="progress-text" id="progress-text">Question 1 of 10</span>
+        <div class="progress-bar-track">
+          <div class="progress-bar-fill" id="progress-bar-fill"></div>
+        </div>
+      </div>
+
+      <div class="question-card" id="question-card">
+        <p class="question-number" id="question-number">01</p>
+        <h2 class="question-text" id="question-text"></h2>
+        <div class="options-grid" id="options-grid">
+          <!-- Options injected by JS -->
+        </div>
+        <div class="feedback-box" id="feedback-box" hidden>
+          <span class="feedback-icon" id="feedback-icon"></span>
+          <p class="feedback-msg" id="feedback-msg"></p>
+        </div>
+        <button class="btn-next" id="btn-next" hidden>Next question →</button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ── SCREEN 3: Results ── -->
+  <div id="screen-results" class="screen">
+    <div class="results-shell">
+      <div class="score-ring-wrap">
+        <svg class="score-ring" viewBox="0 0 120 120" width="160" height="160">
+          <circle class="ring-bg" cx="60" cy="60" r="52" />
+          <circle class="ring-fill" id="ring-fill" cx="60" cy="60" r="52" />
+        </svg>
+        <div class="score-centre">
+          <span class="score-num" id="score-num">0</span>
+          <span class="score-denom" id="score-denom">/0</span>
+        </div>
+      </div>
+
+      <h2 class="result-heading" id="result-heading">Well done!</h2>
+      <p class="result-sub" id="result-sub"></p>
+
+      <div class="result-actions">
+        <button class="btn-primary" id="btn-restart">Retry this chapter</button>
+        <button class="btn-secondary" id="btn-home">All chapters</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="questions.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
