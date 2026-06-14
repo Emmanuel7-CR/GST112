@@ -128,6 +128,7 @@ const CHAPTERS = [
           "It strengthened African kingdoms by creating new trading alliances.",
           "It had little long-term impact because Africans were quickly replaced by European settlers."
         ],
+        answer: 1
       },
       {
         question: "Which scholar and book are credited with debunking myths about European influence by showing that Africa was at par with Europe in the 15th century?",
@@ -266,6 +267,67 @@ const CHAPTERS = [
           "By British-trained warrant chiefs from the 18th century onward.",
           "By princes, minor kings, and 'bales' (provincial governors), who enjoyed considerable autonomy as long as they met their obligations of taxes and tributes to the Alaafin.",
           "By a council of elected representatives from each town."
+        ],
+        answer: 2
+      },
+      // ── NEW from exam papers ──
+      {
+        question: "Ibn Khaldun, Magrizi, and Leo Africanus belong to which source category of history?",
+        options: [
+          "Oral tradition.",
+          "Archaeological source.",
+          "Written source.",
+          "Ethnological source."
+        ],
+        answer: 2
+      },
+      {
+        question: "Which method recaptures the past by means of excavated objects?",
+        options: [
+          "Oral tradition.",
+          "Ethnology.",
+          "Archaeology.",
+          "Historical linguistics."
+        ],
+        answer: 2
+      },
+      {
+        question: "Memoirs of agents of African companies are examples of which type of historical source?",
+        options: [
+          "Oral traditions.",
+          "Written sources.",
+          "Archaeological sources.",
+          "Ethnological sources."
+        ],
+        answer: 1
+      },
+      {
+        question: "What is the distinction between cultural history and ethnology?",
+        options: [
+          "Cultural history focuses only on art, while ethnology focuses on language.",
+          "Cultural history is the study of the development and evolution of a people's culture through time; ethnology is the comparative study of different ethnic groups and cultures.",
+          "Cultural history relies only on written records, while ethnology relies only on oral tradition.",
+          "There is no meaningful distinction — both terms describe the same discipline."
+        ],
+        answer: 1
+      },
+      {
+        question: "Which two early civilisations are most frequently cited as having awed European visitors to Africa?",
+        options: [
+          "Nok civilisation and the Mali Empire.",
+          "Benin civilisation and Nok civilisation.",
+          "Igbo-Ukwu culture and the Oyo Empire.",
+          "The Kanem-Borno Empire and the Songhai Empire."
+        ],
+        answer: 1
+      },
+      {
+        question: "In which Nigerian state is the NOK culture found?",
+        options: [
+          "Plateau State.",
+          "Niger State.",
+          "Kaduna State.",
+          "Benue State."
         ],
         answer: 2
       }
@@ -466,6 +528,107 @@ const CHAPTERS = [
           "The Waziri was the head of the Islamic court responsible for interpreting Sharia."
         ],
         answer: 1
+      },
+      // ── NEW from exam papers ──
+      {
+        question: "Into which two categories is the ruling class in traditional Hausa society bifurcated?",
+        options: [
+          "Fulani and Hausa.",
+          "Masu Sarauta (those with political office) and Masu Mulki (those with governing power).",
+          "The Ulama (scholars) and the Sarki (kings).",
+          "The Galadima (nobles) and the Talakawa (commoners)."
+        ],
+        answer: 1
+      },
+      {
+        question: "What was one major effect of Islamic influence in Hausaland?",
+        options: [
+          "The abolition of the trans-Saharan slave trade.",
+          "The replacement of all traditional Hausa customs with Arab ones.",
+          "The introduction of Arabic literacy and a tradition of written scholarship.",
+          "The unification of all Hausa states under a single monarch."
+        ],
+        answer: 2
+      },
+      {
+        question: "Who is regarded as the greatest leader of Kanem-Borno?",
+        options: [
+          "Mai Dunama Dabbalemi.",
+          "Mai Idris Alooma.",
+          "El-Kanemi.",
+          "Usman Dan Fodio."
+        ],
+        answer: 1
+      },
+      {
+        question: "Which states fall under the Hausa Bakwai (the seven legitimate Hausa states)?",
+        options: [
+          "Kebbi, Zamfara, Yauri, and Gwari.",
+          "Kano, Daura, Gobir, Zazzau, Katsina, Rano, and Biram — including Rano and Gobir.",
+          "Nupe, Kwararafa, Ilorin, and Kebbi.",
+          "Sokoto, Kano, Zaria, Bauchi, and Adamawa."
+        ],
+        answer: 1
+      },
+      {
+        question: "What was the largest cultural group in Nigeria?",
+        options: [
+          "Yoruba.",
+          "Igbo.",
+          "Hausa.",
+          "Fulani."
+        ],
+        answer: 2
+      },
+      {
+        question: "Who was the Chief Judge (head of the judiciary) in traditional Kanem-Borno?",
+        options: [
+          "The Galadima.",
+          "The Waziri.",
+          "The Mainin Alkali.",
+          "The Kaigama."
+        ],
+        answer: 2
+      },
+      {
+        question: "Which two officials were among the most important chiefs in Kanem-Borno?",
+        options: [
+          "The Waziri and the Bashorun.",
+          "The Galadima and the Kaigama.",
+          "The Are-Ona-Kankanfo and the Oyomesi.",
+          "The Iyase and the Uzama."
+        ],
+        answer: 1
+      },
+      {
+        question: "What was another name for the Nokena confederation?",
+        options: [
+          "Hausa Bakwai.",
+          "Banza Bakwai.",
+          "Kwararafa.",
+          "Ilorin."
+        ],
+        answer: 2
+      },
+      {
+        question: "Into how many main divisions is Northern Nigerian history traditionally divided?",
+        options: [
+          "Two — Hausa States and Kanem-Borno.",
+          "Three — Hausa States, Kanem-Borno, and the Middle Belt.",
+          "Four — Hausa, Fulani, Kanuri, and Middle Belt peoples.",
+          "Five — each corresponding to a major emirate."
+        ],
+        answer: 1
+      },
+      {
+        question: "Which foreign peoples mingled with the early inhabitants of Northern Nigeria?",
+        options: [
+          "Romans, Greeks, and Phoenicians.",
+          "Berbers, Tuaregs, and Arabs.",
+          "Persians, Turks, and Egyptians.",
+          "Nubians, Ethiopians, and Somalis."
+        ],
+        answer: 1
       }
     ]
   },
@@ -572,6 +735,192 @@ const CHAPTERS = [
           "It was the first kingdom in Nigeria to interact with Europeans (1472) and maintained high-level diplomatic exchanges with major European powers.",
           "It produced the most celebrated military generals in Nigerian history.",
           "It was the first Nigerian state to abolish the slave trade independently."
+        ],
+        answer: 1
+      },
+      // ── NEW from exam papers ──
+      {
+        question: "What was the Iyase's role in the Benin Kingdom?",
+        options: [
+          "The Iyase was the head of the palace guild system.",
+          "The Iyase was the leader of the town chiefs (Eghaevbo n'Ore), acting as Prime Minister, and was responsible for conferring titles on chiefs appointed by the Oba.",
+          "The Iyase was the commander of the Benin army.",
+          "The Iyase was the chief priest responsible for the Oba's coronation."
+        ],
+        answer: 1
+      },
+      {
+        question: "What were the two categories of the Eghaevbo class of chiefs in Benin?",
+        options: [
+          "Iwebo and Iweguae.",
+          "Eghaevbo n'Ogbe (palace chiefs) and Eghaevbo n'Ore (town chiefs).",
+          "Uzama and Eware.",
+          "Ibiwe and Oliha."
+        ],
+        answer: 1
+      },
+      {
+        question: "What were the three palace societies in the Benin Kingdom and what was their general function?",
+        options: [
+          "Ogboni, Osugbo, and Oro — they managed religious ceremonies.",
+          "Iwebo, Iweguae, and Ibiwe — they served the needs of the Oba and his household, each with specific duties.",
+          "Uzama, Eghaevbo, and Oliha — they managed the political affairs of the kingdom.",
+          "Ojoye, Enogie, and Edaiken — they administered the provinces."
+        ],
+        answer: 1
+      },
+      {
+        question: "What was the 'Ogiso era' in Benin history?",
+        options: [
+          "The period of British colonial rule over Benin.",
+          "The era of Oranmiyan's dynasty, which founded the present Benin monarchy.",
+          "The first period of pre-colonial Benin history, named after the Ogisos (kings of the sky), beginning with Igodo.",
+          "The era of maximum Benin expansion under Oba Ewuare."
+        ],
+        answer: 2
+      },
+      {
+        question: "Who was the first Oba of Benin, and how was he related to Oranmiyan?",
+        options: [
+          "Ewuare I; he was Oranmiyan's brother.",
+          "Eweka I; he was the son of Oranmiyan and a Benin woman.",
+          "Igodo; he was a direct descendant of Oranmiyan through three generations.",
+          "Oba Adolo; he was Oranmiyan's appointed successor."
+        ],
+        answer: 1
+      },
+      {
+        question: "What role did the Uzama play during the ascension of a new Oba of Benin?",
+        options: [
+          "They organised the military parade that accompanied the coronation.",
+          "Their leader, the Oliha, was responsible for crowning the Oba upon his ascension to the throne.",
+          "They ratified the choice of Oba by popular vote among the chiefs.",
+          "They managed the financial arrangements for the coronation ceremony."
+        ],
+        answer: 1
+      },
+      {
+        question: "Which Oba of Benin is credited with adding the Edaiken (crown prince) to the number of the Uzama?",
+        options: ["Oba Eweka I", "Oba Ewuare", "Oba Esigie", "Oba Ozolua"],
+        answer: 1
+      },
+      {
+        question: "What was the significance of the guilds created by Ere in Benin?",
+        options: [
+          "They were military units organised to defend the kingdom from external attack.",
+          "They were professional associations (like wood-workers, carvers, and weavers) that held monopolies over the production and standardisation of their respective goods.",
+          "They were religious brotherhoods that managed the shrines of the Oba.",
+          "They were trading companies that managed Benin's commerce with European merchants."
+        ],
+        answer: 1
+      },
+      {
+        question: "What event led to the British invasion of Benin in 1897?",
+        options: [
+          "Benin refused to pay taxes to the Royal Niger Company.",
+          "The Oba of Benin ordered the killing of a British trading delegation.",
+          "The kingdom had confrontations with the British, which eventually led to the invasion, the deposing of the Oba, and his deportation to Calabar.",
+          "Benin formed an alliance with France against British interests."
+        ],
+        answer: 2
+      },
+      {
+        question: "Which Oba of Benin entered a pact with the British in 1861?",
+        options: ["Oba Ewuare", "Oba Adolo", "Oba Ovonramwen", "Oba Akenzua"],
+        answer: 1
+      },
+      {
+        question: "According to Onitsha tradition, where did the Onitsha people migrate from?",
+        options: ["Ile-Ife", "Benin", "Igbo-Ukwu", "The Niger Delta"],
+        answer: 1
+      },
+      {
+        question: "Who founded the Kingdom of Itsekiri, and approximately when?",
+        options: [
+          "Oranmiyan, around 1400.",
+          "Ginuwa (Iginuwa), the son and heir apparent of Oba Olua of Benin, around 1473.",
+          "Bayajidda, around 1300.",
+          "El-Kanemi, around 1820."
+        ],
+        answer: 1
+      },
+      {
+        question: "What kind of governing body ruled the Itsekiri Kingdom?",
+        options: [
+          "A republic governed by elected representatives from each village.",
+          "The kingdom was ruled by the Olu, who presided over a council known as the Ojoye, made up of seven nobles/title holders.",
+          "A military council headed by the Are-Ona-Kankanfo.",
+          "A dual monarchy shared between the Olu and the Iyase."
+        ],
+        answer: 1
+      },
+      {
+        question: "What is the typical political structure of the Urhobo people?",
+        options: [
+          "A centralised kingdom ruled by an Obi with a council of chiefs.",
+          "A federated system of Emirates modelled on the Sokoto Caliphate.",
+          "They are fragmented and do not have a single kingdom; each village has its own traditional institution headed by a ruler known as an Ovie.",
+          "They are governed by a rotating council of elders drawn from all Urhobo villages."
+        ],
+        answer: 2
+      },
+      {
+        question: "Why are the Igbo people historically described as 'acephalous' or 'segmentary'?",
+        options: [
+          "Because their society was dominated by a warrior caste with no king.",
+          "Because they had no centralised states and operated a system of government without kings.",
+          "Because their territory was too vast to be governed by a single ruler.",
+          "Because they were divided into two rival confederacies with no overall leader."
+        ],
+        answer: 1
+      },
+      {
+        question: "How was individual status determined in pre-colonial Igbo society?",
+        options: [
+          "Exclusively by family lineage and royal bloodline.",
+          "By the number of wives and children a man had.",
+          "Recognition was based on individual capability, hard work, and age, with elders and wealthy/hardworking individuals being highly respected.",
+          "By a formal title system administered by the Eze."
+        ],
+        answer: 2
+      },
+      {
+        question: "What was the 'Amala Oha' in Igbo political organisation?",
+        options: [
+          "A secret society that adjudicated serious crimes.",
+          "A form of general assembly where all adult male members met to perform legislative functions, often in the open village square.",
+          "The title given to the most senior elder in an Igbo village.",
+          "A council of warriors responsible for the village's defence."
+        ],
+        answer: 1
+      },
+      {
+        question: "How were 'warrant chiefs' created in Igboland during the British colonial period?",
+        options: [
+          "They were elected by popular vote in their communities.",
+          "They were hereditary rulers whose authority the British decided to recognise.",
+          "The British appointed individuals who had assisted them in conquest or served as messengers and carriers to act as 'kings' and preside over their communities.",
+          "They were trained in British administrative schools and then assigned to communities."
+        ],
+        answer: 2
+      },
+      {
+        question: "How did the Izon (Ijaw) people in the Niger Delta area organise their states?",
+        options: [
+          "They developed a powerful centralised kingdom based in Bonny.",
+          "They did not develop a centralised system of government but were characterised by the 'House System' and operated as middlemen in trade with the Europeans.",
+          "They were governed by a council of Islamic scholars following their conversion in the 17th century.",
+          "They formed a loose confederacy led by a rotating paramount chief."
+        ],
+        answer: 1
+      },
+      {
+        question: "What is the text's conclusion regarding the relationship between the various peoples of Southern Nigeria before colonial rule?",
+        options: [
+          "They were in a constant state of warfare and had little meaningful contact.",
+          "They had long-standing social, economic, and political relations with each other well before colonial rule, and modern ethnic disharmony is largely a product of colonial and post-colonial politics.",
+          "They were unified under a single Yoruba-led confederation.",
+          "They had no significant contact until European traders arrived in the 15th century."
         ],
         answer: 1
       }
@@ -701,6 +1050,22 @@ const CHAPTERS = [
           "The Bashorun controlled the army and reported directly to the Alaafin.",
           "The Bashorun managed all foreign trade on behalf of the empire."
         ],
+        answer: 1
+      },
+      // ── NEW from exam papers ──
+      {
+        question: "What was the head of the Oyomesi council called?",
+        options: ["Are-Ona-Kankanfo", "Bashorun", "Iyase", "Oliha"],
+        answer: 1
+      },
+      {
+        question: "What was the name of the site where Oduduwa and his group landed in Ile-Ife?",
+        options: ["Oke Ibadan", "Oke Oramfe", "Oke Bode", "Oke Suna"],
+        answer: 1
+      },
+      {
+        question: "Who extricated the Egbas from Oyo domination?",
+        options: ["Oranmiyan", "Sodeke", "Bashorun Gaha", "Alaafin Abiodun"],
         answer: 1
       }
     ]
@@ -900,6 +1265,122 @@ const CHAPTERS = [
           "The establishment of a democratically elected Nigerian parliament."
         ],
         answer: 1
+      },
+      // ── NEW from exam papers ──
+      {
+        question: "What were the two kinds of trade that took place in pre-colonial Nigeria?",
+        options: [
+          "Trans-Saharan trade and trans-Atlantic trade.",
+          "Local trade and long-distance trade.",
+          "Barter trade and monetary trade.",
+          "Coastal trade and interior trade."
+        ],
+        answer: 1
+      },
+      {
+        question: "Which Northern Nigerian king is remembered for resisting British colonial rule?",
+        options: [
+          "Mai Idris Alooma.",
+          "Usman Dan Fodio.",
+          "Attahiru I.",
+          "El-Kanemi."
+        ],
+        answer: 2
+      },
+      {
+        question: "Which Oba ceded Lagos to the British colonialists?",
+        options: ["Oba Adolo", "Oba Ovonramwen", "Oba Dosunmu", "Oba Akenzua"],
+        answer: 2
+      },
+      {
+        question: "Who was the highest-ranking military officer in Nigeria in January 1966?",
+        options: [
+          "Brigadier Murtala Muhammed.",
+          "Colonel Odumegwu Ojukwu.",
+          "Major General Johnson Aguiyi-Ironsi.",
+          "General Yakubu Gowon."
+        ],
+        answer: 2
+      },
+      {
+        question: "Which military head of state introduced the unitary system of government in Nigeria?",
+        options: [
+          "Yakubu Gowon.",
+          "Murtala Muhammed.",
+          "Johnson Aguiyi-Ironsi.",
+          "Ibrahim Babangida."
+        ],
+        answer: 2
+      },
+      {
+        question: "What do the acronyms SDP and NRC stand for in Nigerian political history?",
+        options: [
+          "SDP — Social Democratic Party; NRC — National Republican Convention.",
+          "SDP — Socialist Democratic Platform; NRC — Nigerian Republican Congress.",
+          "SDP — Social Development Party; NRC — National Reform Council.",
+          "SDP — State Democratic Party; NRC — Northern Republican Convention."
+        ],
+        answer: 0
+      },
+      {
+        question: "What was 'Operation Wetie', and who were the parties involved?",
+        options: [
+          "A military coup attempt organised by Aguiyi-Ironsi against Balewa.",
+          "A political violence campaign that was a fallout of the impasse between Akintola and Awolowo in the Western Region.",
+          "A naval blockade organised during the Nigerian Civil War.",
+          "A British counter-insurgency operation against Kano resistance fighters."
+        ],
+        answer: 1
+      },
+      {
+        question: "Which political parties contested the 1979 Nigerian general elections?",
+        options: [
+          "NPC, NCNC, AG, and NEPU.",
+          "NPN, UPN, NPP, GNPP, and PRP.",
+          "SDP, NRC, PDP, and AD.",
+          "APC, PDP, APGA, and LP."
+        ],
+        answer: 1
+      },
+      {
+        question: "Who was the opposition politician that contested against Olusegun Obasanjo in the 1999 Nigerian presidential election?",
+        options: [
+          "Moshood Abiola.",
+          "Muhammadu Buhari.",
+          "Olu Falae.",
+          "Atiku Abubakar."
+        ],
+        answer: 2
+      },
+      {
+        question: "Which African in the diaspora gave significant impetus to the Nigerian nationalist struggle?",
+        options: [
+          "W.E.B. Du Bois.",
+          "Marcus Garvey.",
+          "Kwame Nkrumah.",
+          "Jomo Kenyatta."
+        ],
+        answer: 1
+      },
+      {
+        question: "The West African Pilot newspaper was to Nnamdi Azikiwe as the Negro World was to whom?",
+        options: [
+          "W.E.B. Du Bois.",
+          "Martin Luther King Jr.",
+          "Marcus Garvey.",
+          "Kwame Nkrumah."
+        ],
+        answer: 2
+      },
+      {
+        question: "What was one major effect of Islam's spread in Nigeria?",
+        options: [
+          "The complete replacement of traditional laws with Sharia across all of Nigeria.",
+          "The abolition of long-distance trade across Northern Nigeria.",
+          "The spread of literacy and education through Arabic writing and Islamic scholarship.",
+          "The unification of all Nigerian ethnic groups under a single Islamic state."
+        ],
+        answer: 2
       }
     ]
   }
